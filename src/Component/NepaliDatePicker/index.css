@@ -1,0 +1,22 @@
+.common-datepicker-wrapper .form-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  color: #1e2125;
+}
+
+.common-datepicker-wrapper .react-datepicker-wrapper {
+  width: 100%;
+}
+.common-datepicker-wrapper .form-control {
+  background: #fff !important;
+  border: 1px solid #5b5b5b;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: none;
+  height: 4 0px;
+}
+.common-datepicker-wrapper .form-control.required-field {
+  border: 1px solid #bf272f;
+}

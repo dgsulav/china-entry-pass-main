@@ -1,0 +1,29 @@
+.signature-wrapper {
+  max-width: 600px;
+  height: auto;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.signature-wrapper .signature-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+}
+
+.signature-wrapper .signature-container .signature-card {
+  height: 200px;
+  border-radius: 4px;
+  max-width: 500px;
+  margin: auto;
+  border: 2px solid #f1f1f1 !important;
+  box-shadow: none !important;
+}
+
+.signature-wrapper .signature-container .signature-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin: auto;
+  height: 100%;
+}

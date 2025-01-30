@@ -1,0 +1,18 @@
+.main-content {
+  margin-left: 250px;
+  overflow-y: scroll;
+  height: 100vh;
+  transition: all 0.35s;
+}
+.main-content .content {
+  padding: 0 15px 10px 15px;
+  margin-top: 70px;
+}
+.page-content {
+  padding: calc(55px + 24px) calc(10px / 2) 50px calc(10px / 2);
+}
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #edf1fb !important;
+  cursor: default;
+}

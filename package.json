@@ -1,0 +1,81 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metismenu/react": "0.0.2",
+    "@sbmdkl/nepali-date-converter": "^1.3.3",
+    "@sbmdkl/nepali-datepicker-reactjs": "^1.2.2",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.0.0",
+    "@testing-library/user-event": "13.2.1",
+    "@tippyjs/react": "4.2.6",
+    "apexcharts": "^3.49.2",
+    "axios": "0.26.1",
+    "bootstrap": "4.5.3",
+    "env-cmd": "10.1.0",
+    "file-saver": "^2.0.5",
+    "formik": "2.2.9",
+    "jquery": "3.6.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.25",
+    "jwt-decode": "3.1.2",
+    "lucide-react": "^0.292.0",
+    "qrcode": "^1.5.3",
+    "qrcode.react": "3.0.2",
+    "react": "^16.14.0",
+    "react-apexcharts": "^1.4.1",
+    "react-cropper": "^2.3.3",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^16.14.0",
+    "react-error-boundary": "3.1.4",
+    "react-icons": "^5.2.1",
+    "react-loading-skeleton": "2.2.0",
+    "react-redux": "7.2.8",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.10.0",
+    "react-select-async-paginate": "0.6.1",
+    "react-toastify": "8.2.0",
+    "react-webcam": "^7.2.0",
+    "redux": "4.1.2",
+    "redux-devtools-extension": "2.13.9",
+    "redux-persist": "6.0.0",
+    "redux-thunk": "2.4.1",
+    "simplebar-react": "2.3.6",
+    "web-vitals": "2.1.0",
+    "xlsx": "0.16.0",
+    "yup": "0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:development": "env-cmd -f .env.development react-scripts  start",
+    "start:production": "env-cmd -f .env.production react-scripts  start",
+    "build:development": "env-cmd -f .env.development react-scripts  build",
+    "build:production": "env-cmd -f .env.production react-scripts  build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

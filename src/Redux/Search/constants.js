@@ -1,0 +1,4 @@
+export const searchConstants = {
+  UPDATE_SEARCH_STRING: "UPDATE_SEARCH_STRING",
+  CLEAR_SEARCH_STRING: "CLEAR_SEARCH_STRING",
+};

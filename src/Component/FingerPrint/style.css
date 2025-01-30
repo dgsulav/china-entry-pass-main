@@ -1,0 +1,17 @@
+.fingerprint-container {
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 20px; / */
+}
+
+.fingerprint {
+  width: 150px; /* Adjust width as needed */
+  height: 144px; /* Adjust height as needed */
+}
+
+.fingerprint-image {
+  width: 100%; /* Make the image fill its container */
+  height: 100%; /* Make the image fill its container */
+  object-fit: cover; /* Preserve aspect ratio and cover the container */
+  border: 1px solid #ccc; /* Add border for visual clarity */
+}
