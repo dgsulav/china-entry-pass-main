@@ -2212,7 +2212,7 @@ const CreateCard = ({
                     content={editDetails ? "Update" : "Add"}
                   />
                 )}
-                {edit && !isSuperuser && !isAdmin && (
+                {edit && !isSuperuser && !isAdmin && console.log("!isSuperuser "+!isSuperuser + "&& !isAdmin:" + !isAdmin) &&(
                   <div className="d-flex align-items-center">
                     <div className="p-2">
                       <Button
