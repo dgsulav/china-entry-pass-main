@@ -1,0 +1,23 @@
+/*!
+ * Cropper.js v1.6.2
+ * https://fengyuanchen.github.io/cropperjs
+ *
+ * Copyright 2015-present Chen Fengyuan
+ * Released under the MIT license
+ *
+ * Date: 2024-04-21T07:43:05.335Z
+ */
+
+/*! exports provided: default */
+
+/*! no static exports found */
+
+/*! react */
+
+/*!******************************!*\
+        !*** ./src/react-webcam.tsx ***!
+        \******************************/
+
+/*!**************************************************************************************!*\
+        !*** external {"root":"React","commonjs2":"react","commonjs":"react","amd":"react"} ***!
+        \**************************************************************************************/

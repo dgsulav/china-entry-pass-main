@@ -8,7 +8,7 @@ import { FaPlus } from "react-icons/fa";
 import PaginationLimit from "../../Component/Pagination/PaginationLimit";
 import Tooltip from "../../Component/Tooltip/Tooltip";
 import UpdatedSkeleton from "../../Component/Skeleton/UpdatedSkeleton";
-
+import "metismenujs/styles/metismenujs.css";
 import CreateUser from "./CreateUser";
 import Modal from "../../Component/Modal";
 

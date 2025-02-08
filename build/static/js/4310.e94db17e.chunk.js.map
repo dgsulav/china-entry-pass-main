@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/4310.e94db17e.chunk.js","mappings":"0IAMA,UAJc,WACZ,OAAO","sources":["Pages/OverAllCardRequest/index.js"],"sourcesContent":["import React from \"react\";\n\nconst index = () => {\n  return <div>index</div>;\n};\n\nexport default index;\n"],"names":[],"sourceRoot":""}
