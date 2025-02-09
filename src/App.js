@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "react-toastify/dist/ReactToastify.css";
-import "metismenujs/dist/metismenujs.css";
+import 'metismenujs/style.css';
 import "simplebar/dist/simplebar.min.css";
 import "@sbmdkl/nepali-datepicker-reactjs/dist/index.css";
 import "react-datepicker/dist/react-datepicker.css";
