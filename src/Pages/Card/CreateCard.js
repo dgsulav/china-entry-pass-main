@@ -655,6 +655,7 @@ const CreateCard = ({
 
   const handleImageClick = () => {
     if (!edit) {
+      console.log("camera open");
       setShowCameraModal(true);
     }
   };
