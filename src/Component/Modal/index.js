@@ -41,10 +41,11 @@ const Modal = ({
       tabIndex="-1"
       role="dialog"
       aria-labelledby="exampleModalCenterTitle"
-      aria-hidden="true"
+      aria-hidden={showModal ? "false" : "true"}
       id={id}
       onClick={onModalClick}
     >
+      {console.log(showModal+"=showModal")}
       <div className={`modal-dialog modal-dialog-centered ${size ? size : ""}`}>
         <div className="modal-content">
           <ModalHeader
