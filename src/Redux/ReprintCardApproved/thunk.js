@@ -87,6 +87,7 @@ export const generateCardNumber =
   };
 
 export const printCard = (body) => async (dispatch) => {
+  console.log(body);
   const {
     id,
     fullName,
