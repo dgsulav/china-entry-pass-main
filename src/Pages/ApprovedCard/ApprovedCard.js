@@ -153,6 +153,7 @@ const ApprovedCard = ({
                       office,
                     } = detail;
 
+                  // {console.log(detail);}
                     return (
                       <tr key={id}>
                         <td className="fw-bold" style={{ width: "2%" }}>

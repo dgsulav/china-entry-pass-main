@@ -107,6 +107,7 @@ export const printCard = (body) => async (dispatch) => {
     submissionNumber,
     base64UserPhoto,
     uniqueSlug,
+    citizenshipNumber
   } = body;
 
   const accessToken = localStorage.getItem("accessToken");
@@ -136,6 +137,7 @@ export const printCard = (body) => async (dispatch) => {
     cardHolderPhoto: base64UserPhoto,
     accessToken,
     refreshToken,
+    citizenshipNumber: citizenshipNumber
   };
 
   try {
