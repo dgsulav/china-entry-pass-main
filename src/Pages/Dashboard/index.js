@@ -255,11 +255,12 @@ const DashboardListing = () => {
                     </div>
                     <div className="total-pending">
                       Total Card Printed:{" "}
-                      {totalData ? totalData.new?.pending : 0}
+                      {totalData && totalData.new ? totalData.new?.printed : 0}
                     </div>
                     <div className="today-pending">
                       Today's Card Printed:{" "}
-                      <span>{todayData ? todayData?.new?.printed : 0}</span>
+                      {console.log(todayData)}
+                      <span>{todayData ? todayData.new?.printed : 0}</span>
                     </div>
                     <div className="icon">
                       <FaPrint size={22} style={{ color: "#2c51a4" }} />
